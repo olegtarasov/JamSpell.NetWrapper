@@ -8,6 +8,8 @@
     <PackageProjectUrl>https://github.com/olegtarasov/JamSpell.NetWrapper</PackageProjectUrl>
     <RepositoryUrl>https://github.com/olegtarasov/JamSpell.NetWrapper</RepositoryUrl>
     <Description>Managed .NET Standard 2.0 wrapper for JamSpell library. Batteries (i. e. compiled native libraries) are included.</Description>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
