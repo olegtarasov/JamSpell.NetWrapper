@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamSpell.NetWrapper", "JamSpell.NetWrapper\JamSpell.NetWrapper.csproj", "{096FCBC9-99A1-43AD-B8E3-50EF470E30EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtil", "TestUtil\TestUtil.csproj", "{4CE13527-0D5B-4EC0-BFFF-4846F015EB12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096FCBC9-99A1-43AD-B8E3-50EF470E30EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096FCBC9-99A1-43AD-B8E3-50EF470E30EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096FCBC9-99A1-43AD-B8E3-50EF470E30EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096FCBC9-99A1-43AD-B8E3-50EF470E30EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE13527-0D5B-4EC0-BFFF-4846F015EB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE13527-0D5B-4EC0-BFFF-4846F015EB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE13527-0D5B-4EC0-BFFF-4846F015EB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE13527-0D5B-4EC0-BFFF-4846F015EB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66F0FA29-B08C-400C-8BE6-52537613A136}
+	EndGlobalSection
+EndGlobal
