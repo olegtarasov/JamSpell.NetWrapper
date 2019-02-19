@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Oleg Tarasov</Authors>
+    <Company />
+    <Product />
+    <PackageProjectUrl>https://github.com/olegtarasov/JamSpell.NetWrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/olegtarasov/JamSpell.NetWrapper</RepositoryUrl>
+    <Description>Managed .NET Standard 2.0 wrapper for JamSpell library. Batteries (i. e. compiled native libraries) are included.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
