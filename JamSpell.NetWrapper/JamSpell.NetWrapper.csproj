@@ -36,6 +36,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="NativeLibraryManager" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>

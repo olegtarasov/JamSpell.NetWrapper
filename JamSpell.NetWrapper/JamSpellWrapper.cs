@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using JamSpell.NetWrapper.LibraryManager;
 using JamSpell.NetWrapper.Logging;
 using JamSpell.NetWrapper.Properties;
+using NativeLibraryManager;
 
 namespace JamSpell.NetWrapper
 {
 	public sealed partial class JamSpellWrapper : IDisposable
 	{
-		private static readonly NativeLibraryManager _libraryManager;
+		private static readonly LibraryManager _libraryManager;
 		private static readonly ILog _log = LogProvider.For<JamSpellWrapper>();
 		private static readonly Encoding _utf16 = Encoding.Unicode;
 
@@ -17,9 +17,9 @@ namespace JamSpell.NetWrapper
 
 		static JamSpellWrapper()
 		{
-			_libraryManager = new NativeLibraryManager("JamSpell",
-				new LibraryItem("jamspell.dll", Resources.win_JamSpell, Os.Windows, Bitness.x32),
-				new LibraryItem("jamspell.dll", Resources.win_JamSpell_x64, Os.Windows, Bitness.x64));
+			_libraryManager = new LibraryManager("JamSpell",
+				new LibraryItem("jamspell.dll", Resources.win_JamSpell, Platform.Windows, Bitness.x32),
+				new LibraryItem("jamspell.dll", Resources.win_JamSpell_x64, Platform.Windows, Bitness.x64));
 		}
 
 		/// <summary>
